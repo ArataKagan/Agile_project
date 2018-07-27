@@ -23,27 +23,136 @@ and what needs to be done.
 
 3. Explain velocity and sprint as if you were teaching another student.
 
-Sprint is a time frame for creating a functional piece of product. In order to
+A: Sprint is a time frame for creating a functional piece of product. In order to
 produce a high quality product with faster speed, an agile team sets the time frame
-and schedule meetings to update status and discuss needs for each project.
-Velocity is a measurable quantity assigned for each sprint and agile teams use the
-metric to track how much amount of work your team can get through. By doing this,
-the agile team can estimate the delivery time of the product. For example, by tracking
-how many tasks each team finishes everyday considering the number of people and time
-it took to finish per task, the team can average out those measures and extract
-the velocity.
+and each team focus on different aspects of the product to meet their target while
+collaborating with other teams.Velocity is a measurable quantity assigned for
+each sprint and agile teams use the metric to track how much amount of work your
+team can get through. By doing this, the agile team can estimate the delivery time
+of the product. For example, by tracking how many tasks each team finishes everyday
+considering the number of people and time it took to finish per task, the team
+can average out those measures and extract the velocity.
 
 
 4. What format makes a good user story?
 
-
+A: Good format of a user story explains wants and needs from a standpoint of
+a user, product manager and developer. The typical user story tends to follow:
+As a < type of user >, I want < some goal > so that < some reason >.
 
 5. What are different estimation methods teams can use? Explain pros and cons of each method. Which method would you prefer?
 
+A:
+Fibonacci Numbers Pros:
+- Relative sizing of tasks
+- Very precise measure of velocity
 
+Fibonacci Numbers Cons:
+- Because it's too precise, a lot of time is spent on discussing whether each project is
+a 2 or a 3, or a 3 or a 5
+- Inconsistent across teams. Some team's 5 may be different team's 20.
+- Feel uncomfortable to assign a number which doesn't mean nothing
+
+T-shirt sizes Pros:
+- Appropriate level of precision (not too precise as Fibonacci)
+- Relative sizing
+
+T-shirt sizes Cons:
+- Inconsistent across teams
+- Some people may associate each level as a hour
+
+I like T-shirt size estimation more since I easily grasp the relative size of each project.
+For Fibonacci numbers, I cannot really differentiate whether the task is 2 or 3.
 
 6. Give a real-world example of a development project, and explain the breakdown into epic(s), slices, cards, and tasks.
 
+Epic: As a customer, I want to be able to have wishlists so that I can come back to buy
+products later
 
+Card #1: As a customer, I want to be able to save a product in my wishlist so that I can
+visit it again later
+Task #1 : Put 'Add to wishlist' button on each product page
+Task #2 : Create new db to store wishlist items
+
+Card #2: As a customer, I want to be able to view my wishlist so that I can buy items
+from it
+Task #1 : Create page to display user's wishlist
+Task #2 : Add "View wishlist" link to homepage
+
+Slices: Front-end, back-end, database
 
 7. Explain in your own words what a dual-track system is and what advantages it provides.
+
+Dual-track system is an agile team structure where a team is divided into discovery side
+and delivery side. Discovery side is comprised of a product owner, user researcher and designer
+and their role is to come up with a new idea or revise existing feature, test the idea and draw a
+strategy whether the feature is feasible to get rolled out or not. Based on the result of the
+discovery side, delivery side, who are comprised of a project manager, team lead and developer,
+code up the ideas and create the products. Advantage of adopting this team structure is that
+they can rapidly adopt to new ideas and fix the existing known issues as practicing
+'failing fast' principal.
+
+8. * Planning a vacation.
+
+Epic #1: Find where to go on a vacation
+
+  Card #1: want to decide destination (L)
+    Task #1: List up places I always wanted to go
+    Task #2: Talk to my travel buddy and hear what he/she has to say
+
+  Card #2: want to decide what to do there (M)
+    Task #1: List up things I want to do at the destination
+    Task #2: Talk to my travel buddy and hear what he/she has to say
+
+Epic #2: Secure vacation days
+
+  Card #1: want to decide how long we can go to vacation (XS)
+    Task #1: Look at my work calendar
+    Task #2: Ask my travel buddy which dates are available
+
+  Card #2: want to get an approval of taking vacation  (XS)
+    Task #1: Look at how many vacation days/PTOs I have
+    Task #2: Ask how many vacation days/PTOs my buddy has
+    Task #3: Talk to our managers and get an approval
+
+Epic #3: Find budget of the travel
+
+  Card #1 : want to know how much I can spend for this trip (S)
+    Task #1 : Look at my bank account and see how much saving I have
+    Task #2 : Talk to my buddy and ask how much he/she can spend for this trip
+
+  Card #2 : Based on the result of transportation and hotel search, want to know
+  how much the travel costs (L)
+    Task #1 : Jump to epic 4 and 5 and have a sense of how much it costs
+    Task #2 : Talk to my buddy and agree on the cost
+
+Epic #4: Book flight
+
+  Card #1: want to decide which flight to book (M)
+    Task #1 : Go to online flight booking site
+    Task #2 : Find the best optimal flight
+    Task #3 : Discuss with travel buddy
+
+  Card #2: want to secure the flight (XS)
+    Task #1 : Go to online flight booking site
+    Task #2 : Book the flight
+
+Epic #5: Book hotel
+
+  Card #1: want to decide which hotel to stay at (M)
+    Task #1 : Go to online hotel booking site
+    Task #2 : Find a best matching option for our budget
+    Task #3 : Discuss with travel buddy what he/she has to say
+
+  Card #2: want to secure the hotel (XS)
+    Task #1 : Go to online hotel booking site
+    Task #2 : Make a reservation on a hotel we decided
+
+Columns needed: Plan, In Progress, Done
+
+Project
+
+https://trello.com/b/6s7fxKch/hacker-news-clone-project
+
+I have chosen T-shirt size estimation method since it's easy to see the relative
+estimates for the project.
