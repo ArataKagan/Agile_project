@@ -1,0 +1,49 @@
+1. What are the typical Agile team roles and what parts of the development lifecycle
+is each role responsible for?
+
+A: 1) Product Manager (PM) is responsible for creating a strategy, roadmap and feature
+definition of the product line.
+2) Project Manager is responsible for overseeing a fixed project and delivering the progress
+of the project on-time.
+3) Designer is responsible for crafting a design of a product. Their work involves in
+creating mock-ups, wireframe and interaction of the product.
+4) User Researcher is responsible for examining and understanding user's behaviors
+and discovering their needs and wants. They create a persona of the product.
+5) Team lead is responsible for the technical management, direction and quality of products.
+6) Developer is responsible for overall creation of technical products, maintenance and
+integrity of the product.
+
+2. Why do we use Kanban boards in Agile development?
+
+A: Agile team relies on Kanban boards in order to stay organized for each task and
+share the progress of the entire project. The kanban is consisted of task cells and
+columns. By moving around those task cells depending on each stage of the project
+described on the columns, the entire agile team can be aware of what is completed
+and what needs to be done.
+
+3. Explain velocity and sprint as if you were teaching another student.
+
+Sprint is a time frame for creating a functional piece of product. In order to
+produce a high quality product with faster speed, an agile team sets the time frame
+and schedule meetings to update status and discuss needs for each project.
+Velocity is a measurable quantity assigned for each sprint and agile teams use the
+metric to track how much amount of work your team can get through. By doing this,
+the agile team can estimate the delivery time of the product. For example, by tracking
+how many tasks each team finishes everyday considering the number of people and time
+it took to finish per task, the team can average out those measures and extract
+the velocity.
+
+
+4. What format makes a good user story?
+
+
+
+5. What are different estimation methods teams can use? Explain pros and cons of each method. Which method would you prefer?
+
+
+
+6. Give a real-world example of a development project, and explain the breakdown into epic(s), slices, cards, and tasks.
+
+
+
+7. Explain in your own words what a dual-track system is and what advantages it provides.
